@@ -90,7 +90,7 @@ namespace Ana2CSV
                                         SaveCSV("partialRecallMatchedWords:\t" + reader.Value, path, projectname);
                                         break;
                                     case "partialRecallSignificantWords":
-                                        SaveCSV("partialRecallSignificantWords:\t" + reader.Value, path, projectname);
+                                        SaveCSV("partialRecallSignificantWords:\t" + reader.Value, path, projectname); 
                                         SaveCSV("\n", path, projectname);
                                         break;
                                 }
